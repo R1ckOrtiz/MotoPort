@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TizGon — Super fast electric Moped</title>
+  <meta name="description" content="TizGon C45 — Super fast electric moped. Design moderno, desempenho elétrico e conforto premium." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+</head>
+<body>
+  <div class="page">
+    <header class="nav">
+      <div class="nav-left">
+        <button class="icon-btn" aria-label="Menu" id="menuToggle">☰</button>
+        <nav class="nav-links" id="primaryNav">
+          <a href="#about">About</a>
+          <a href="#collections">Collections</a>
+          <a href="#services">Services</a>
+          <a href="#options">Options</a>
+        </nav>
+      </div>
+      <a class="brand" href="#">
+        <img src="assets/logo.png" alt="TizGon"/>
+        <span>TizGon</span>
+      </a>
+      <div class="nav-right">
+        <button class="icon-btn" aria-label="Alternar tema" id="themeToggle">◐</button>
+        <a class="btn ghost" href="#contact">Contact us</a>
+        <a class="icon-chip" href="#cart">🛒<span>Cart</span></a>
+      </div>
+    </header>
+
+    <main class="hero">
+      <div class="hero-copy" data-reveal>
+        <h1>Super fast<br/>electric Moped</h1>
+        <p class="subtitle">C45 — Classic Model</p>
+        <p class="lead">O futuro da mobilidade urbana com performance elétrica, condução suave e design icônico.</p>
+        <div class="cta">
+          <a class="btn primary" href="#shop">Comprar</a>
+          <a class="btn secondary" href="#specs">Ver especificações</a>
+          <a class="btn whatsapp" href="https://wa.me/5599999999999" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="hero-stage" data-reveal>
+        <div class="brand-badge" aria-label="TizGon">
+          <img src="assets/logo.png" alt="Logo TizGon"/>
+          <span>TizGon</span>
+        </div>
+        <img class="moto" loading="eager" decoding="async" src="assets/moto.jpg" alt="TizGon electric moped"/>
+        <aside class="info-card">
+          <h3>C45</h3>
+          <small>Classic Model</small>
+          <p>Motor 500W, autonomia até 90km, recarga rápida e modo Sport.</p>
+        </aside>
+        <aside class="review-card">
+          <div class="avatars" aria-hidden="true">
+            <span class="avatar">A</span>
+            <span class="avatar">B</span>
+            <span class="avatar">C</span>
+          </div>
+          <p><strong>10k+</strong> reviews positivos <span class="stars">★★★★★</span></p>
+        </aside>
+        <aside class="mini-card">
+          <div class="wheel">🛞</div>
+          <div>
+            <b>DB50QT</b>
+            <small> Premium Moped</small>
+          </div>
+        </aside>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> TizGon. Todos os direitos reservados.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+  <a class='brand-fixed' href='#' aria-label='TizGon'><img src='assets/logo.png' alt='Logo TizGon'/><span>TizGon</span></a>
+</body>
+</html>
+
